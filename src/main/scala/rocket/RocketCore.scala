@@ -24,7 +24,7 @@ case class RocketCoreParams(
   nLocalInterrupts: Int = 0,
   nBreakpoints: Int = 1,
   nPMPs: Int = 8,
-  nPerfCounters: Int = 0,
+  nPerfCounters: Int = 29,
   haveBasicCounters: Boolean = true,
   misaWritable: Boolean = true,
   nL2TLBEntries: Int = 0,
